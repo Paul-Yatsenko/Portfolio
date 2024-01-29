@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="fonts/helvetica-light.woff2" as="font" crossorigin>
+    <link rel="preload" href="helvetica-bold-oblique.woff2" as="font" crossorigin>
+    <link rel="preload" href="helvetica-bold.woff2" as="font" crossorigin>
+    <link rel="preload" href="IBMPlexMono-Medium.woff2" as="font" crossorigin>
+    <link rel="preload" href="IBMPlexMono-Bold.woff2" as="font" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Портфолио</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <header class="header">
+        <div class="header__container">
+          <img src="img/main-logo.svg" alt="Portfolio" class="header__logo">
+            <p class="header__date">2023/24</p>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="hero">
+          <div class="hero__container">
+            <div class="hero__info-container">
+              <h1 class="visually-hidden">Страница-визитка фронтенд разработчика Павла Яценко с информацией о нем</h1>
+              <p class="hero__title-eng"><i>Hello,</i></p>
+              <p class="hero__title-ru"><i>Привет,<br>я </i>Павел Яценко</p>
+              <p class="hero__title-eng name">Pavel Yatsenko</p>
+              <dl class="hero__info">
+                <dt>Возраст:</dt>
+                <dd>37 y.o.</dd>
+                <dt>Гражданство:</dt>
+                <dd>РФ</dd>
+                <dt>languages:</dt>
+                <dd class="hero__progress-wrapper"><label class="hero__label" for="rus-progress">rus</label>
+                  <progress class="hero__progress" id="rus-progress" max="100" value="100"></progress>
+                  <label class="hero__label" for="eng-progress">eng</label>
+                  <progress class="hero__progress" id="eng-progress" max="100" value="35"></progress></dd>
+              </dl>
+              <p class="hero__decor-frontend">Frontend developer, jr.</p>         
+            </div>
+            <img class="hero__image" src="img/hero-photo.jpg" width="616" height="290" alt="Фото Павла Яценко">
+          </div>
+        </section>
+
+        <section class="skills">
+          <h2 class="visually-hidden">Информация о квалификации и навыках</h2>
+          <div class="skills__container">
+            <div class="skills__container-group1">
+              <h3 class="skills__subtitle skill__subtitle--first">specialized education</h3>
+              <a href="https://htmlacademy.ru/" class="skills__link">
+                <p class="skills__decor-academy">HTML Academy</p>
+              </a>
+              <dl class="skills__education-list">
+                <dt>2023+</dt>              
+                <dd>Фронтенд-разработчик. HTML и CSS. Профессиональная верстка сайтов</dd>
+                <dt>2023++</dt>
+                <dd> Адаптивная верстка сайтов</dd>
+                <dt>2024+++</dt>
+                <dd>Основы программирования на Java Script <span>/в процессе обучения/</span></dd>
+              </dl>
+              <h3 class="skills__subtitle skills__subtitle--add">add Skill</h3>
+              <ul class="skills__add-list">
+                <li class="skills__add-item"><span class="add-arrow">Не сложный дизайн, создание, доработка</span></li>
+                <li class="skills__add-item"><span class="add-arrow">Работа с фото /ретушь, цветокоррекция/</span></li>
+                <li class="skills__add-item"><span class="add-arrow">Отличнное знание ПК и ОС Mac и Windows</span></li>
+                <li class="skills__add-item"><span class="add-arrow">Свободно - пакет MS Office и Adobe</span></li>
+                <li class="skills__add-item"><span class="add-arrow">Полное понимание работы интерактивных сайтов и методов их построения</span></li>
+              </ul>  
+            </div>
+            <div class="skills__container-group2">
+              <h3 class="skills__subtitle">Skill</h3>
+              <dl class="skills__skill-list">
+                <dt><span>01</span></dt>              
+                <dd><p>Чистая, валидная, семантическая HTML верстка/CSS на основе PSD и Figma макетов</p><progress class="skills__progress" id="skills_progress-html" max="100" value="100"></progress></dd>
+                <dt><span>02</span></dt>              
+                <dd><p>Поддержка и обновление сайтов, наполнение контентом</p><progress class="skills__progress" id="skills_progress-support" max="100" value="100"></progress></dd>
+                <dt><span>03</span></dt>
+                <dd><p>Адаптивная и кроссбраузерная верстка, БЭМ, препроцессоры, оптимизация</p><progress class="skills__progress" id="skills_progress-adapt" max="100" value="90"></progress></dd>
+                <dt><span>04</span></dt>
+                <dd><p>JavaScript</p><progress class="skills__progress" id="skills_progress-js" max="100" value="25"></progress></dd>
+                <dt><span>05</span></dt>
+                <dd><p>Настройка, поддержка и обновление сайтов на CMS <span class="skills-list-small">/совместно с разработчиками системы/</p></span><progress class="skills__progress" id="skills_progress-cms" max="100" value="25"></progress></dd>
+              </dl>
+            </div>
+          </div>
+          <div class="skills__soft-skill-container">
+            <h3 class="skills__subtitle skills__subtitle--soft-skill">soft-skill</h3>
+            <p class="skills__soft-skill-description">Коммуникабельность и чувство юмора / Грамотная устная и письменная речь / Многозадачность / Внимательность </p>
+          </div>
+          <div class="skills__soft-icon-container">
+            <h3 class="skills__subtitle skills__subtitle--soft-icon">soft</h3>
+            <ul class="skills__soft-list">
+              <li class="skills__soft-item skills__soft-item--ps"></li>
+              <li class="skills__soft-item skills__soft-item--id"></li>
+              <li class="skills__soft-item skills__soft-item--ai"></li>
+              <li class="skills__soft-item skills__soft-item--figma"></li>
+              <li class="skills__soft-item skills__soft-item--corel"></span></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="portfolio">
+          <div class="portfolio__container">
+            <h3 class="visually-hidden">примеры сайтов, сделанных Павлом</h3>
+            <h3 class="portfolio__title">_portfolio</h3>
+            <ul class="portfolio__site-list">
+              <li class="portfolio__site-item">
+                <div class="portfolio__site-name-wrapper">
+                  <a href="https://www.sedona1.ru" class="portfolio__link portfolio__link--site"><p class="portfolio__subtitle">СЕДОНА</p></a><span>сайт</span>
+                </div>
+                <div class="portfolio__site-wrapper">
+                  <a href="https://www.sedona1.ru" class="portfolio__link portfolio__link--site"><img src="img/sedona.jpg" alt="сайт Седона." width="327" height="189" class="portfolio-link-image"></a>
+                  <a href="window1.html" class="portfolio__link portfolio__link--work"><span class="portfolio__link-text">Что было сделано</span><span class="decoration-arrow"></span></a>
+                </div>
+              </li>
+              <li class="portfolio__site-item">
+                <div class="portfolio__site-name-wrapper">               
+                  <a href="https://www.catenergy.ru" class="portfolio__link portfolio__link--site"><p class="portfolio__subtitle">CAT ENERGY</p></a><span>сайт</span>
+                </div>
+                <div class="portfolio__site-wrapper">
+                  <a href="https://www.catenergy.ru" class="portfolio__link portfolio__link--site"><img src="img/cat-energy.jpg" alt="сайт Кэт энерджи." width="327" height="189" class="portfolio-link-image"></a>
+                  <a href="#" class="portfolio__link portfolio__link--work"><span class="portfolio__link-text">Что было сделано</span><span class="decoration-arrow"></span></a>
+                </div>
+              </li>
+              <li class="portfolio__site-item">   
+                <div class="portfolio__site-name-wrapper">          
+                  <a href="https://paul-yatsenko.github.io/Kavara/" class="portfolio__link portfolio__link--site"><p class="portfolio__subtitle">KAVARA</p></a><span>e-mail рассылка</span>
+                </div>   
+                <div class="portfolio__site-wrapper">
+                  <a href="https://paul-yatsenko.github.io/Kavara/" class="portfolio__link portfolio__link--site"><img src="img/kavara.jpg" alt="мэйл рассылка Кавара" width="327" height="189" class="portfolio-link-image"></a>
+                  <a href="#" class="portfolio__link portfolio__link--work"><span class="portfolio__link-text">Что было сделано</span><span class="decoration-arrow"></span></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>      
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <p class="footer__slogan">_Let’s work together</p>
+          <p class="footer__text-me">_text me</p>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="" class="footer__contacts-link"><span class="footer__item--phone"></span></a></li>
+            <li class="footer__item"><a href="" class="footer__contacts-link"><span class="footer__item--tg"></span></a></li>
+            <li class="footer__item"><a href="" class="footer__contacts-link"><span class="footer__item--whatsapp"></span></a></li>
+            <li class="footer__item"><a href="" class="footer__contacts-link"><span class="footer__item--vk"></span></a></li>
+          </ul>
+        </div>
+      </footer>
+
+      <div class="window__container">
+        <section class="sedona">
+          <a href="index.html#portfolio-back" class="close-link"><div class="button-wrapper"><span class="button-line"></span></div></a>
+          <div class="sedona__container">
+          <h1 class="visually-hidden">пример сайта Седона, сделанного Павлом</h1>
+            <div class="sedona__wrapper-left">
+              <div class="sedona__site-name-wrapper">
+                <a href="https://www.sedona1.ru" class="portfolio__link--site"><p class="sedona__subtitle">СЕДОНА</p></a><span>сайт</span>
+              </div>
+              <a href="https://www.sedona1.ru" class="portfolio__link--site"><img src="img/sedona.jpg" alt="сайт Седона." width="327" height="189" class="window-image"></a>
+            </div>
+            <div class="sedona__wrapper-right">
+              <span class="visually-hidden">Описание проделанных работ.</span>
+              <div class="text-wrapper">
+                <p class="sedona__info">Версия для <span class="bold">Desktop</span>, состоит из главной страницы, страницы-каталога и модального окна по нажатию. Верстка - <span class="bold">HTML</span>, стилизация - <span class="bold">CSS</span> с использованием <span class="bold">Grid</span> и <span class="bold">Flexbox</span>. Кроссбраузерность: IE10+, Chrome, Firefox, Opera, Safari. Реализована работа элементов, с которыми взаимодействуюет пользователь (ссылки, кнопки, чекбосы форм, вызов модального окна регистрации при нажатии на "хочу сюда") и их различное визуальное отображение при разных состояниях.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+      </div>
+      
+    </div>
+
+  </body>
+
+</html>
